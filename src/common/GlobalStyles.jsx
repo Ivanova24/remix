@@ -38,7 +38,6 @@ const GlobalStyles = createGlobalStyle`
 
 //reset
 html {
-  /* box-sizing: border-box; */
   font-family: var(--ff-text);
   font-size: 62.5%
 }
@@ -52,30 +51,6 @@ html {
 body {
   font-size: var(--fs-body);
   line-height: var(--lh-body);
-}
-
-/* body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
-li,
-p,
-pre,
-blockquote,
-figure,
-hr {
-  margin: 0;
-  padding: 0;
-} */
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 p {

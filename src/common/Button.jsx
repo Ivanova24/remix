@@ -9,12 +9,16 @@ const Button = styled.button`
   padding: 1.8rem 2.4rem;
   border-radius: 5px;
   font-weight: 700;
+  display: flex;
+
+  svg {
+    margin-right: 16px ;
+  }
   
   &:hover {
     background-color: ${(props) => (props.primary ? `var(--c-btn-hprimary)` : `var(--c-bg-secondary)`)};
     color: ${(props) => (props.primary ? `var(--c-title)` : `var(--c-title)`)};
     transition: all 0.5s ease;
-    outline: thin solid ${(props) => (props.primary ? `var(--c-primary)` : `var(--c-bg-secondary)`)};
   }
 `;
 
